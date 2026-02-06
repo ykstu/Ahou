@@ -1,0 +1,35 @@
+{
+  "name": "ahou",
+  "version": "0.0.1",
+  "description": "ahou",
+  "main": "./ahou/electron/index.js",
+  "scripts": {
+    "test": "electron .",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": ["Ahou"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ykstu/Ahou.git"
+  },
+  "author": "Yangko",
+  "license": "GPL-3.0",
+  "type": "module",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.11.1",
+    "@electron-forge/maker-deb": "^7.11.1",
+    "@electron-forge/maker-rpm": "^7.11.1",
+    "@electron-forge/maker-squirrel": "^7.11.1",
+    "@electron-forge/maker-zip": "^7.11.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.11.1",
+    "@electron-forge/plugin-fuses": "^7.11.1",
+    "@electron/fuses": "^1.8.0",
+    "electrom": "^34.0.2",
+    "electron": "^40.1.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
+  }
+}
